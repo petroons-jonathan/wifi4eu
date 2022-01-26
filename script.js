@@ -5,6 +5,11 @@ var node_mac = GetURLParameter("node_mac");
 var client_ip = GetURLParameter("client_ip");
 var client_mac = GetURLParameter("client_mac");
 
+console.log("base_grant_url: " +base_grant_url);
+console.log("user_continue_ulr: " +user_continue_url);
+console.log("node_mac: " +node_mac);
+console.log("client_ip: " +client_ip);
+console.log("client_mac: " +client_mac);
 // ******************
 // Login to Meraki by redirecting client to the base_grant_url 
 // 
